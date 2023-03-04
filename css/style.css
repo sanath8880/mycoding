@@ -1,0 +1,95 @@
+
+*{
+box-sizing:brder-box;
+padding: 0px;
+margin: 0px;
+
+}
+
+body{  
+   line-height:30px;
+   padding:opx 100px;
+}
+
+.div-1{
+    height: 400px;
+    width:80%;
+    margin: auto;
+    margin-top :100px;
+    border:1px solid black;
+}
+
+.div-2{
+
+background-color:#f0f0f0;
+
+}
+.div-3{
+    height: 400px;
+    width:80%;
+    margin: auto;
+    margin-top :100px;
+    border:1px solid black;
+}
+/*
+//  decendent selector
+p{
+
+    font-weight: bold;
+    font-size:30px;
+}
+.div-1 p {
+    font-weight: normal;
+    font-size:16px;
+}
+.div-1 a{
+    background-color: red;
+    color:blue;
+    padding:5px;
+} 
+.div-1 p a{
+    background-color: rgb(0, 255, 149);
+    color:blue;
+    padding:5px;
+} 
+
+
+// child selector
+.div-1 > p{
+    background-color: red;
+    color:blue;
+    padding:10px;
+    margin:10px ;
+    border:1px #fff;
+}
+
+.div-1 ~ p{
+    background-color: red;
+    color:blue;
+    padding:10px;
+    margin:10px ;
+    border:1px #fff;
+}
+*/
+.div-1 :nth-child(5){
+    background-color:rgb(0, 255, 179);
+}
+p:hover{
+    background-color:rgb(0, 255, 179);
+}
+input:focus{
+    background-color:rgb(4, 0, 255);
+}
+p::after{
+    content: ">>";
+}
+p::before{
+    content: ">>";
+}
+p::selection{
+    background-color: forestgreen;
+}
+p::first-letter{
+    background-color: rgb(34, 106, 139);
+}
+
