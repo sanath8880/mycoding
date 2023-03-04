@@ -13,7 +13,9 @@ console.log(output)
 
 let myString = "Hello, world!";
 let myChar = myString.charAt(0);
-console.log(myChar);*/
+console.log(myChar);
 
 let name = prompt("What is your name?");
 alert("Hello, " + name + "!");
+
+san starting git
